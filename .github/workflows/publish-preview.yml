@@ -3,7 +3,7 @@ name: Publish PR preview
 on:
   push:
     branches:
-      - feature/synesthetic-evolution
+      - feature/synesthetic-evolution-phase-2
   workflow_dispatch:
 
 permissions:

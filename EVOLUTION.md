@@ -21,3 +21,15 @@ This branch evolves only the audiovisual presentation layer. The existing gamepl
 The effect engine is isolated in `effects.js` and `effects.css`. `index.html` only exposes a few visual hooks, so the game logic remains easy to audit and revert.
 
 The design direction is inspired by the audiovisual synchronization philosophy of *Tetris Effect: Connected* without copying its assets or gameplay systems.
+
+
+## Phase 2 — Synesthetic Journey
+
+- Splits the existing BGM analyser into bass / mid / treble energy bands.
+- Bass drives orbital pulse and shock-wave weight.
+- Mid frequencies drive flowing horizon ribbons.
+- Treble drives particle shimmer and sparkle density.
+- Level, line count, and combo only affect visual scene intensity; gameplay rules stay unchanged.
+- Adds a lightweight journey/flow indicator and directional clear sweep around the board.
+- Sprint's final 10 seconds gain a visual danger wash without changing the timer or rules.
+- Existing music files and BGM volume remain unchanged.
